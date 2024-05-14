@@ -10,6 +10,6 @@ router.use(protectRoute)
 
 router.get('/:receiverId', getMessages)
 
-router.post('/:senderId', sendMessage)
+router.post('/:receiverId', sendMessage)
 
 export default router
